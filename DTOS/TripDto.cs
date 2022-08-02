@@ -22,7 +22,7 @@ namespace BusManagementSystem.DTOS
         public int AvailableSeat { get; set; }
 
         public Location TakeOffPoint { get; set; }
-
+            
         public Location LandingPoint { get; set; }
 
         public DateTime TakeOffTime { get; set; }

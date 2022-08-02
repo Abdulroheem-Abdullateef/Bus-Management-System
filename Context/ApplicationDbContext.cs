@@ -12,7 +12,7 @@ namespace BusManagementSystem.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySQL("server=localhost;user=root;database=BMSDb;port=3306;password=loveforall1990;oldguids=False;");
+            optionsBuilder.UseMySQL("server=localhost; user = root; database=BusesManagement; password=07067008860");
         }
 
         public DbSet<Admin> Admins { get; set; }

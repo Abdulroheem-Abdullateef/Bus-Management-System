@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BusManagementSystem.Interfaces.Repositories
 {
-   public interface IDriverRepository
+    public interface IDriverRepository
     {
         Driver Create(Driver driver);
 

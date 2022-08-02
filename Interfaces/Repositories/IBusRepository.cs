@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BusManagementSystem.Interfaces
 {
-    interface IBusRepository
+    public interface IBusRepository
     {
         Bus Create(Bus bus);
 

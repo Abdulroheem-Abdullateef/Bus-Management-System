@@ -44,5 +44,5 @@ namespace BusManagementSystem.Interfaces.Services
         TripDto UpdateTripStatus(string tripReferenceNumber, TripStatus tripStatus);
    
     }
-
+                                            
 }

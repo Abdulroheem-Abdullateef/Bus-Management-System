@@ -44,5 +44,6 @@ namespace BusManagementSystem.DTOS
         public BusType BusType { get; set; }
 
         public string PlateNumber { get; set; }
+
     }
 }
